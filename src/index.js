@@ -24,6 +24,6 @@ function handleTodo(todo) {
 }
 
 function handleDelete(e) {
-  e.target.parentNode.remove();
+  e.target.parentNode.parentNode.remove();
   
 }
